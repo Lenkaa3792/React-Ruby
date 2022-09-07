@@ -1,26 +1,22 @@
 import React from "react";
-import {NavLink}from "react-router-dom";
-
-export default function Nav ()
-{
-    return (
-      <Nav>
-        
-        
-          <NavLink to="/about" activeStyle>
-            About
-          </NavLink>
-          <NavLink to="/services" activeStyle>
-            Services
-          </NavLink>
-          <NavLink to="/book" activeStyle>
-            Book
-          </NavLink>
-          <NavLink to="/contact" activeStyle>
-            Contact
-          </NavLink>
-        
-      </Nav>
-    );
-    
+import { NavLink } from "react-router-dom";
+export function Nav() {
+  const styles = {
+    color: "blue",
+  };
+  return (
+    <nav id="nav">
+      <ul className="navs">
+        <NavLink to="/about" style={styles}>
+          About
+        </NavLink>
+        <NavLink to="/book" style={styles}>
+          Book
+        </NavLink>
+        <NavLink to="/contact" style={styles}>
+          Contact
+        </NavLink>
+      </ul>
+    </nav>
+  );
 }
