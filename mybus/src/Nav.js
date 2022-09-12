@@ -16,9 +16,7 @@ export function Nav() {
         <NavLink to="/bus" style={styles}>
           New Buses
         </NavLink>
-        <NavLink to="/delete" style={styles}>
-          Delete
-        </NavLink>
+        
       </ul>
     </nav>
   );
