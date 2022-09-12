@@ -116,8 +116,8 @@ nav{
   justify-content: space-around ;
   align-items: center;
   min-height: 15vh;
-  background-color:gray;
-  color: aliceblue;
+  background-color:beige;
+  color:burlywood;
 }
 .navs{
   width: 50%;
@@ -164,4 +164,7 @@ nav{
   to {
     transform: rotate(360deg);
   }
+}
+.p1{
+  align-items: right;
 }
