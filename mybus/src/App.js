@@ -5,6 +5,7 @@ import About from "./About";
 import Book from "./Book";
 import Bus from "./New Buses"
 import { Nav } from "./Nav";
+import Delete from "./Deletebus";
 import { BrowserRouter, Route } from "react-router-dom";
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/about" exact component={About} />
         <Route path="/book" exact component={Book} />
         <Route path="/bus" exact component={Bus} />
+        <Route path="/delete" exact component={Delete} />
        
       </BrowserRouter>
       {/* <NavBar />

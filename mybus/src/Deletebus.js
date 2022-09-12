@@ -3,7 +3,7 @@ import image2 from"./images/bus.jpg"
 import { Form,FormGroup } from "reactstrap";
 import { useState } from "react";
 
-export default function Bus ()
+export default function Delete ()
 {
     const [insurance] = useState("");
     const [phone] = useState("");
@@ -15,7 +15,7 @@ export default function Bus ()
 
       console.log( 'my',formData);
       fetch("http://localhost:9292/buses", {
-        method: "POST",
+        method: "DELETE",
         headers: {
           "Content-Type": "application/json",
         },
@@ -30,7 +30,7 @@ export default function Bus ()
     }
     return(
     <div className="contact">
-     <h3 className="h3">Create a new bus</h3>
+     <h3 className="h3">delete a known bus</h3>
      <FormGroup>
      <form onSubmit={handleSubmit}>
   <label for="referrer">insured
@@ -42,7 +42,7 @@ export default function Bus ()
       </label>
       <label for="phone">phone: <input type="number" name="phone" required /></label>
       <label for="vehicle_registration">vehicle registration <input type="text" name="vehicle_registration" required /></label>
-    <input type="submit" value="Submit"  />
+    <input type="submit" value="Delete"  />
   </form>
      </FormGroup>
  
