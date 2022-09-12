@@ -165,6 +165,9 @@ nav{
     transform: rotate(360deg);
   }
 }
-.p1{
-  align-items: right;
+.p2{
+  padding-left: 50%;
+  /* padding-right: 50%; */
+
+
 }
