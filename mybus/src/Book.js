@@ -7,7 +7,7 @@ export default function Book(){
  <div id="form">
  <Form >
      <h1>Request for assitance/Booking</h1>
-  <p>Please fill  with the required information</p>
+  
 
   <form action="#">
     <fieldset>
