@@ -12,8 +12,8 @@
 
 .p1{
  align-items: center;
- width: 500px;
- margin: auto;
+ width: 200px;
+
  
 
 }
@@ -41,7 +41,7 @@ form {
 fieldset {
   border: none;
   padding: 2rem 0;
-  border-bottom: 3px solid #3b3b4f;
+  border-bottom: 3px solid beige;
 }
 
 fieldset:last-of-type {
@@ -63,7 +63,7 @@ select {
 
 input,
 textarea {
-  background-color: #0a0a23;
+  background-color: beige;
   border: 1px solid #0a0a23;
   color: #ffffff;
 }
@@ -73,7 +73,12 @@ textarea {
   margin: 0 0.5em;
   vertical-align: middle;
 }
-
+.div1 img{
+ padding-left: 280px;
+  width: 350px;
+  /* align-items: center; */
+  
+}
 input[type="submit"] {
   display: block;
   width: 60%;
@@ -96,11 +101,7 @@ a {
 
 
 
-.completed{
-  display: flex;
-  text-align: center;
-  border-style: dashed;
-}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -166,8 +167,9 @@ nav{
   }
 }
 .p2{
-  padding-left: 50%;
-  /* padding-right: 50%; */
+  padding-left: 280px;
+  margin-top: 50;
+ 
 
 
 }

@@ -6,7 +6,7 @@ export default function Book(){
 <div id="book">
  <div id="form">
  <Form >
-     <h1>Bus booking form</h1>
+     <h3>Bus booking form</h3>
   <form action="#">
       <label for="name"> Name:
         <input type="text" name="name" required />
