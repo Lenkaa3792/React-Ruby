@@ -73,10 +73,13 @@ textarea {
   margin: 0 0.5em;
   vertical-align: middle;
 }
-.div1 img{
- padding-left: 280px;
-  width: 350px;
-  /* align-items: center; */
+
+.div1{
+  display: flex;
+  justify-content: space-between;
+
+}
+.imageclass{
   
 }
 input[type="submit"] {
