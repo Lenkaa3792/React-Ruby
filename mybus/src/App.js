@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+// import { image1} from "./image/bus.jpg"
 import About from "./About";
 import Book from "./Book";
 import Contact from "./Contact"
