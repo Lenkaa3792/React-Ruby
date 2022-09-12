@@ -80,8 +80,18 @@ textarea {
 
 }
 .image1{
-  margin-left: 100px;
+  margin-left: 190px;
   margin-top: 30px;
+
+}
+/* .p5{
+  margin-left: 90px;
+  
+} */
+.div2{
+  display: flex;
+  /* justify-content: space-between; */
+
 }
 .p4{
   margin-left: 80px;
@@ -91,6 +101,11 @@ textarea {
 .imageclass{
   width: 400px;
   height: 300px;
+}
+.imageclass2{
+  width: 400px;
+  margin-left: 900px;
+
 }
 input[type="submit"] {
   display: block;
