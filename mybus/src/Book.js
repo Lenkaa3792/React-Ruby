@@ -7,16 +7,12 @@ export default function Book(){
  <div id="form">
  <Form >
      <h1>Request for assitance/Booking</h1>
-  
-
   <form action="#">
     <fieldset>
-      <label for="name">Enter Your First Name:
-        <input type="text" name="first-name" required />
+      <label for="name"> Name:
+        <input type="text" name="name" required />
       </label>
-      <label for="last-name">Enter Your Last Name: <input type="text" name="last-name" required /></label>
-      <label for="email">Enter Your Email: <input type="email" name="email" required />
-      </label>
+      <label for="last-name">Enter Your destination: <input type="text" name="last-name" required /></label>
       <label for="number">Phone number :
         <input type="number" name="phone"  required /></label>
     </fieldset>
