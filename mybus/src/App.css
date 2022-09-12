@@ -79,8 +79,16 @@ textarea {
   justify-content: space-between;
 
 }
-.imageclass{
+.image1{
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.p4{
   
+}
+.imageclass{
+  width: 400px;
+  height: 300px;
 }
 input[type="submit"] {
   display: block;
