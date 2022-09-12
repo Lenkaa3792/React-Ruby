@@ -32,7 +32,10 @@ export default function About(){
         </div> */}
         <div className="div2">
             <div className="p5">
-                <p>Through 30 years of public transport operations, we are constantly improving the standard and quality of our services and buses. Our buses are of highest quality possible with passengers comfort and safety as main consideration. They are also environmental friendly which meet the Singapore emission standards. With our commitment towards excellence has marked improvement in all aspect of our services.</p>
+                <p>Through 30 years of public transport operations, we are constantly improving the standard and quality of our services and buses. <br></br>Our buses are of highest quality possible with passengers comfort and safety as main consideration.<br></br> They are also environmental friendly which meet the Singapore emission standards. With our commitment towards excellence has marked improvement in all aspect of our services.</p>
+            </div>
+            <div className="image6">
+                <img src={image2} className="second"/>
             </div>
         </div>
         

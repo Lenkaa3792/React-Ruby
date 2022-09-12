@@ -88,10 +88,26 @@ textarea {
   margin-left: 90px;
   
 } */
+.image6{
+  width: 400px;
+  height: 300px;
+  
+}
+.p5{
+  justify-content: center;
+  padding-left: 190px;
+  padding-right: 90px;
+  
+}
 .div2{
-  display: flex;
+  /* display: flex; */
   /* justify-content: space-between; */
 
+}
+.second{
+  width: 400px;
+  height: 300px;
+  margin-left: 900px;
 }
 .p4{
   margin-left: 80px;
@@ -140,6 +156,10 @@ a {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.h3{
+  justify-content: center;
+  display: flex;
+}
 nav{
   display: flex ;
   justify-content: space-around ;
@@ -147,6 +167,7 @@ nav{
   min-height: 15vh;
   background-color:beige;
   color:burlywood;
+  
 }
 .navs{
   width: 50%;

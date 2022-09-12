@@ -13,8 +13,8 @@ export function Nav() {
         <NavLink to="/book" style={styles}>
           Book
         </NavLink>
-        <NavLink to="/contact" style={styles}>
-          Contact
+        <NavLink to="/bus" style={styles}>
+          New Buses
         </NavLink>
       </ul>
     </nav>

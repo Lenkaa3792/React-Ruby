@@ -3,7 +3,7 @@ import "./App.css";
 // import { image1} from "./image/bus.jpg"
 import About from "./About";
 import Book from "./Book";
-import Contact from "./Contact"
+import Bus from "./New Buses"
 import { Nav } from "./Nav";
 import { BrowserRouter, Route } from "react-router-dom";
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <Nav />
         <Route path="/about" exact component={About} />
         <Route path="/book" exact component={Book} />
-        <Route path="/contact" exact component={Contact} />
+        <Route path="/bus" exact component={Bus} />
        
       </BrowserRouter>
       {/* <NavBar />
