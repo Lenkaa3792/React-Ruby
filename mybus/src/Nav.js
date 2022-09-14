@@ -14,8 +14,9 @@ export function Nav() {
           Book
         </NavLink>
         <NavLink to="/bus" style={styles}>
-          New Buses
+          NewBuses
         </NavLink>
+        
         
       </ul>
     </nav>

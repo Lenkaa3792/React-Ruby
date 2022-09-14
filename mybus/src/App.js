@@ -3,10 +3,12 @@ import "./App.css";
 // import { image1} from "./image/bus.jpg"
 import About from "./About";
 import Book from "./Book";
-import Bus from "./New Buses"
+import BusList from "./BusList"
 import { Nav } from "./Nav";
 
+
 import { BrowserRouter, Route } from "react-router-dom";
+
 function App() {
   return (
     <div >
@@ -14,7 +16,8 @@ function App() {
         <Nav />
         <Route path="/about" exact component={About} />
         <Route path="/book" exact component={Book} />
-        <Route path="/bus" exact component={Bus} />
+        <Route path="/bus" exact component={BusList} />
+
         
        
       </BrowserRouter>
