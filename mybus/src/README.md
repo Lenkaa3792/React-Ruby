@@ -5,10 +5,7 @@ This app is an employee data application that a user sees thye employee details 
 1.bus page
 2.crud
 
-## Installation Process
-1. clone the repo https://github.com/Lenkaa3792/Seur-Invest-employees
-2. open in vs code
-3. npm start
+
 ## Technology Used
 1. React js -developments
 2 . CSS -styling the pages
