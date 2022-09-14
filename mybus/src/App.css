@@ -64,8 +64,8 @@ select {
 input,
 textarea {
   background-color: beige;
-  border: 1px solid #0a0a23;
-  color: #ffffff;
+  /* border: 1px solid #0a0a23;
+  color: #ffffff; */
 }
 
 .inline {
@@ -130,7 +130,7 @@ input[type="submit"] {
   height: 2em;
   font-size: 1.1rem;
   background: linear-gradient(rgb(63, 63, 63), rgb(25, 25, 49));
-  border-color: whitesmoke;
+  border-color: black;
   min-width: 300px;
 }
 
@@ -139,7 +139,7 @@ input[type="file"] {
 }
 
 a {
-  color: #dfdfe2;
+  color: black;
 }
 
 
@@ -149,6 +149,11 @@ a {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.list{
+  height: 30px;
+  padding-left: 50px;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -194,7 +199,7 @@ nav{
   .book input[type=text]{
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 4px;
     resize: vertical;
   }
